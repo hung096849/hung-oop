@@ -1,0 +1,16 @@
+Clean code giúp dễ đọc hiểu code hơn và là kĩ năng bắt buộc dev phải có
+Để clean code nên chú ý những điểm sau:
++ Cách đặt tên
+  -Đặt tên đúng mục đích,có ý nghĩa
+  -Không đặt tên bừa bãi,theo ý hiều của mình, phải đặt sao cho tất cả mọi người đều hiểu
++ Hàm
+  -Hàm phải nhỏ, không được lớn
+  -Mỗi hàm thực hiện một công việc khác nhau
++ Class
+   -Mỗi class chịu một trách nhiệm
+   -Có sự gắn kết chặt chẽ
++ Comment
+   -Comment chuẩn ý nghĩa,ngắn gọn
+   -Tránh comment thừa thãi,bừa bãi,dài dòng
++ Định dạng code   
+   Hiện giờ có những extension hỗ trợ định dạng code nên không cần quá chú trọng vào vấn đề này

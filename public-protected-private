@@ -1,0 +1,14 @@
+Sự khác nhau giữa public,protected và private
+
+ -public: có thể truy cập ở bất cứ đâu
+ -protected: có thể truy cập trong lớp và bởi các lớp kế thùa từ lớp đó
+ -private: chỉ có thể truy cập trong lóp
+Khi nào sử dụng?
+ -Vì private có tính bảo mật cao,nên hãy sử dụng khi muốn dữ liệu được an 
+toàn
+ -protected thường được dùng khi biết chắc là có lớp khác sẽ kế thừa
+lớp này và những phương thức, thuộc tính đó chỉ được dùng trong lớp kế 
+thừa nó
+ -public cấp độ thoáng và dễ truy cập nhất,thường được dùng để lấy dữ liệu
+và xuất dữ liệu ra bên ngoài
+

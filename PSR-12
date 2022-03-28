@@ -1,0 +1,40 @@
+- PSR là viết tắt của PHP Standards Recommendations, là những tiêu chuẩn khi code PHP,tiêu chuẩn này sinh ra để làm việc với team
+Vì khi làm cùng team mỗi người đều có một phong cách code khác nhau,điều này sẽ gây ra nhiều khó khăn vì sẽ có nhiều người trong
+team không hiểu mình đang code gì, vậy nên tiêu chuẩn này sinh ra để mọi người đều code cùng một kiểu
+- PSR-12 ra đời như một cách để mở rộng cho PSR-2 về các cú pháp mới của PHP. Cụ thể PSR-12 là quy ước mở rộng, kế thừa và thay thế 
+cho PSR-2
+- Các quy tắc cơ bản cần làm chủ
+    +Cú pháp cơ bản
+    +Quy tắc về file PHP
+    +Quy tắc về các dòng code
+    +Quy tắc thụt lề
+    +Các từ khóa
+- Khai báo namespace và use
+    +Khi sử dụng namespace, thì dòng tiếp theo phải là một dòng trống
+    +Mỗi từ khóa use chỉ được phép khai báo cho một class, interface hay trait
+    +Khi kết thúc phần use, dòng tiếp theo phải là một dòng trống
+-  CLASSES, PROPERTIES VÀ METHODS chú ý những phần sau
+    +Extends và Implements
+    +Sử dụng traits
+    +Properties
+    +Methods and Functions
+    +Tham số của method và function
+    +abstract, final và static
+    +Cách gọi method và function
+- Các cấu trúc điều khiển
+    Có rất nhiều quy tắc về cấu trúc điều khiển,nhưng điều cần chú ý nhất là:
+    Phần thân của mỗi cấu trúc điều khiển đi kèm với một cặp dấu ngoặc nhọn. Đây là tiêu chuẩn để đảm bảo tính dễ nhìn cũng như 
+    giảm thiểu lỗi khi bổ sung thêm code vào cấu trúc điều khiển     
+- Các toán tử
+    +Khi có khoảng trắng được sử dụng xung quanh các toán tử, thì cũng có thể sử dụng nhiều khoảng trắng để tăng tính dễ đọc cho
+    code
+    +Ngoài ra cần chú ý đến các toán tử sau: unary,binary và điều kiện
+- CLOSUARES    
+    Closures phải được khai báo kèm theo một khoảng trắng ở phía sau từ khóa function, phía trước và phía sau từ khóa use.
+    Dấu ngoặc nhọn mở phải được viết trên cùng dòng, dấu ngoặc nhọn đóng thì được viết ở dòng tiếp theo so với phần thân của 
+    closure.
+- Class ẩn danh
+    Class ẩn danh phải tuân theo các quy tắc và như phần closures ở trên
+    Dấu ngoặc nhọn mở có thể được viết cùng dòng với từ khóa class và danh sách các interfaces được implements. Nhưng khi danh 
+    sách các interfaces được viết trên nhiều dòng khác nhau, thì dấu ngoặc nhọn phải được viết ở dòng tiếp theo so với interface
+    cuối cùng
