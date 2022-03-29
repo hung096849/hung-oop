@@ -1,5 +1,5 @@
 <?php
-require_once('./../entity/Product.php');
+require('../entity/Product.php');
 
 class ProductDemo extends Product
 {

@@ -1,8 +1,8 @@
 <?php
-require_once('./../dao/Database.php'); 
-require_once('./../entity/Product.php');
-require_once('./../entity/Category.php');
-require_once('./../entity/Accessotion.php');
+require('../dao/Database.php'); 
+require('../entity/Product.php');
+require('../entity/Category.php');
+require('../entity/Accessotion.php');
 
 class DatabaseDemo extends Database
 {
